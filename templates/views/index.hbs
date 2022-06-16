@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    {{!-- Using Partials --}}
+    <div class="container">
+        {{>header}}
+        <form>
+            <input type="text" id="location" placeholder="location">
+            <button type="submit">Submit</button>
+        </form>
+        <h3 id="m1"></h3>
+        <h3 id="m2"></h3>
+    </div>
+    {{>footer}}
+</body>
+<script src="./js/script.js"></script>
+
+</html>
