@@ -1,6 +1,3 @@
-console.log("This is my main file");
-console.log("App execution starts here");
-
 const path = require("path");
 const express = require("express");
 const hbs = require("hbs");
