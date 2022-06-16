@@ -13,7 +13,7 @@ form.addEventListener("submit", (e) => {
         m1.innerText = "Please enter some value";
     }
     else {
-        const url = `http://localhost:3000/weather?address=${location.value}`;
+        const url = `/weather?address=${location.value}`;
 
         fetch(url)
             .then(response => response.json()
