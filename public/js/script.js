@@ -22,10 +22,9 @@ form.addEventListener("submit", (e) => {
                     if (data.err) {
                         m1.innerText = data.err;
                         m1.style.color = "red";
-                        m2.style.color = "red";
                     } else {
-                        m1.innerText = `Location : ${data.location}`;
-                        m2.innerText = `Forecast : ${data.forecast}`;
+                        m1.innerText = `${data.location}`;
+                        m2.innerText = `${data.forecast}`;
                         m1.style.color = "green";
                         m2.style.color = "green";
                     }
