@@ -1,5 +1,3 @@
-console.log("Client side js");
-
 const form = document.querySelector("form");
 const m1 = document.getElementById("m1");
 const m2 = document.getElementById("m2");
